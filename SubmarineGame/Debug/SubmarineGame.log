@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/4/13 19:07:29。
+     1>项目“C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\SubmarineGame\SubmarineGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>_MASM:
+         Assembling _explode.asm...
+         cmd.exe /C "C:\Users\pc-home\AppData\Local\Temp\tmpd976b95e3d984fc28a1bbbaa1c7c82f1.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\_explode.obj" /I "D:\Irvine32" /I "D:\masm32\include" /W3 /errorReport:prompt  /Ta_explode.asm
+     1>_explode.asm(466): warning A6004: procedure argument or local not referenced : @countBoom
+     1>_explode.asm(578): warning A6004: procedure argument or local not referenced : @countBoom
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\Debug\SubmarineGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Irvine32 /LIBPATH:D:\masm32\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\Debug\SubmarineGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\Debug\SubmarineGame.lib" /MACHINE:X86 Debug\Game.res
+         Debug\_explode.obj
+         Debug\_rand.obj
+         Debug\_sub3.obj
+         Debug\_timer.obj
+         Debug\_torpedo.obj
+         Debug\_battleship.obj
+         Debug\Game.obj
+         Debug\_bomb.obj
+         Debug\_sub1.obj
+         Debug\_sub2.obj
+         Debug\_vars.obj
+         SubmarineGame.vcxproj -> C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\Debug\SubmarineGame.exe
+     1>已完成生成项目“C:\Users\pc-home\Documents\Visual Studio 2012\Projects\SubmarineGame\SubmarineGame\SubmarineGame.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.27
